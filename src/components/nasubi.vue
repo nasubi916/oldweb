@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, reactive, computed, watch, watchEffect } from "vue";
+import { ref,reactive, computed, watch, watchEffect } from "vue";
 
 defineProps({
 	msg: String,
@@ -31,7 +31,7 @@ const users = [
 	{ id: 3, name: "Kevin MacDonald", email: "kevin@test.com", admin: false },
 ];
 
-const click_button = (event) => {
+const click_button = (event:any) => {
 	console.log("5man-yen");
 	event.target.style.backgroundColor = "red";
 };

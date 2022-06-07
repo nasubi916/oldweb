@@ -3,18 +3,23 @@
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import HelloWorld from './components/HelloWorld.vue'
 import nasubi from './components/nasubi.vue'
+import test from './components/test.vue'
 
 </script>
 
 <template>
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+    <img alt="Vue logo" src="./assets/logo.png" /><br>
+    <!-- <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" /> -->
     <nasubi/>
+    <br>
+    <test/>
+    
+
 </template>
 
 <style>
 #app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
+    font-family: UDEV Gothic, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
