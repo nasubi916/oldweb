@@ -22,3 +22,4 @@ import nasubi from './components/nasubi.vue'
     margin-top: 60px;
 }
 </style>
+
