@@ -10,11 +10,8 @@ import test from './components/test.vue'
 <template>
     <img alt="Vue logo" src="./assets/logo.png" /><br>
     <!-- <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" /> -->
-    <nasubi/>
-    <br>
     <test/>
-    
-
+    <nasubi/>
 </template>
 
 <style>
