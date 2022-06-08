@@ -9,6 +9,7 @@ import pinia from './components/pinia.vue'
 
 <template>
     <img alt="Vue logo" src="./assets/logo.png" /><br>
+    <button class="btn btn--orange btn--radius">home</button> | <button class="btn btn--orange btn--radius">pinia</button>
     <pinia/>
     <test />
     <nasubi />
