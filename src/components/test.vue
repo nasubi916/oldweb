@@ -20,10 +20,14 @@ console.log(name.value);
 </script>
 
 <template>
--------------------------------------
-<br>
+    -------------------------------------
+    <br>
     <button @click="changeName">{{ name }}</button>
 </template>
 
 <style>
+.root {
+    position: relative;
+    /* これがあるとこの要素から数えて位置が決まる */
+}
 </style>
