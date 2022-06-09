@@ -24,7 +24,7 @@ if (stock > 5) {
 }
 
 
-let fluits = ["apple", "banana", "cherry"];
+let fruits = ["apple", "banana", "cherry"];
 const users = [
 	{ id: 1, name: "mini nasu", email: "nasu@gmail.com", admin: true },
 	{ id: 2, name: "Jane Doe", email: "jane@example.com", admin: false },
@@ -110,7 +110,7 @@ watchEffect(() => console.log(count.value));
 	<div>在庫は{{ stock }}</div>
 	<br />
 
-	<div v-for="x in fluits" :key="x">{{ x }}</div>
+	<div v-for="x in fruits" :key="x">{{ x }}</div>
 	<ul>
 		<li v-for="user in users" :key="user.id">
 			{{ user.id }}:{{ user.name }}({{ user.email }})

@@ -23,11 +23,22 @@ console.log(name.value);
     -------------------------------------
     <br>
     <button @click="changeName">{{ name }}</button>
+
+    <p>{{ number }}</p>
 </template>
+
+<script lang="ts">
+// こっちは初期設定以外を置くと良い(処理順が遅い)
+const number=ref(0);
+</script>
 
 <style>
 .root {
     position: relative;
     /* これがあるとこの要素から数えて位置が決まる */
 }
+</style>
+
+<style scoped>
+/* このコンポーネントにしか反映されない */
 </style>
