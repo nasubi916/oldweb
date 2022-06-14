@@ -16,3 +16,4 @@ export const useCounterStore = defineStore("counter", {
 		doubleCount: (state) => state.count * 2,
 	},
 });
+// ここも.vueにしたリ出来るのかな？

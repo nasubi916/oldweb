@@ -1,1 +1,1 @@
-script setupはcomposition APIというらしい
+script setupを使うのはcomposition APIというらしい

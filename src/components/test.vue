@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref } from "vue";
+import { NButton } from 'naive-ui'
 
 const useUser = () => {
     const name = ref("おまえは");
@@ -23,6 +24,7 @@ console.log(name.value);
     -------------------------------------
     <br>
     <button @click="changeName">{{ name }}</button>
+    <n-button>naive-ui</n-button>
 
     <p>{{ number }}</p>
 </template>
